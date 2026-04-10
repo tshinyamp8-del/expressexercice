@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    font-size: 18px;
+    /* taille générale */
+}
+
+h1 {
+    font-size: 40px;
+    /* agrandir le titre */
+    color: blue;
+    /* changer couleur */
+}
+
+p {
+    font-size: 20px;
+    color: green;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: darkblue;
+}
+
+input,
+textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}

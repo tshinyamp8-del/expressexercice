@@ -1,0 +1,21 @@
+<h1>
+    <%= livre.titre %>
+</h1>
+<p>Auteur: <%= livre.auteur %>
+</p>
+<p>Année: <%= livre.annee %>
+</p>
+<p>
+    <%= livre.resume %>
+</p>
+
+<h3>Avis :</h3>
+<ul>
+    <% livre.avis.forEach(a=> { %>
+        <li>
+            <%= a %>
+        </li>
+        <% }) %>
+</ul>
+
+<a href="/livres/<%= livre.id %>/avis">Ajouter un avis</a>

@@ -1,0 +1,10 @@
+<h1>Liste des livres</h1>
+
+<ul>
+    <% livres.forEach(livre=> { %>
+        <li>
+            <%= livre.titre %> - <%= livre.auteur %>
+                    <a href="/livres/<%= livre.id %>">Voir</a>
+        </li>
+        <% }) %>
+</ul>
